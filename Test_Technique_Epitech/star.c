@@ -54,7 +54,7 @@ int leftUpStar(int n)
 int bottomStar(int n)
 {
     int m, i, j, k;
-    m = n;
+    m = n + 1;
     for (i = n; i >= 1; i--)
     {
         for (j = 1; j < m; j++)
