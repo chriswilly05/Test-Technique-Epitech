@@ -149,7 +149,6 @@ int star(int n)
 {
     topStar(n);
     leftside_star(n);
-    rightside_star(n);
     bottomStar(n);
     return 0;
 }
